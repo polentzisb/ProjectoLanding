@@ -1,0 +1,388 @@
+:root {
+    --primary-color: #9A9B87;
+    --primary-color-highlight: #E4C6BD;
+    --bs-body-bg: #DBD0C5;
+}
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    text-transform: capitalize;
+}
+
+*::selection{
+    background: var(--primary-color);
+    color: white;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: var(--bs-body-bg);
+}
+
+
+section {
+    min-height: 100vh;
+    padding: 0 7%;
+    padding-top: 7.5rem;
+     
+}
+
+header {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    background: var(--primary-color);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo {
+    color: white;
+    font-size: 2.9rem;
+}
+
+.navbar a {
+    font-size: 1.7rem;
+    margin-left: 2rem;
+    color: white;
+
+}
+
+header input {
+    display: none;
+}
+
+header label{
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background: url(./images/coffe1.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  
+    
+}
+
+
+
+.home .content{ 
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px black;
+    
+   
+}
+
+.parrafo{
+    text-shadow: 2px 2px 4px black;
+}
+
+.product .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.product .box-container .box{
+    background: white;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    flex: 1 1 30rem;
+}
+
+.review .box-container .box .comment{
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+
+
+.about .column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--primary-color);
+}
+
+
+.about .column .content{
+    flex: 1 1 40rem;
+    padding: 1rem 0;
+    margin-left: 30px;
+
+}
+
+
+.image{
+    border-radius: 10px 50px 13px 50px;
+    overflow: hidden;
+
+}
+
+    
+.newsletter{
+    text-align: center;
+    padding: 5rem 1rem; 
+    background: var(--bs-body-bg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.newsletter h3{
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.newsletter p{
+    color: white;
+    font-size: 1.6rem;
+    margin: 2rem auto;
+    width: 70rem;
+}
+
+.newsletter form{
+    display: flex;
+    max-width: 70rem;
+    border: .2rem solid;
+    padding: .5rem;
+    border-radius: 5rem;
+    margin: 2rem auto;
+    height: 5.5rem;
+}
+
+.newsletter form input {
+    padding: 0 2rem;
+    font-size: 1.7rem;
+    background: none;
+    width: 100%;
+    color: white;
+    text-transform: none;
+}
+
+
+.newsletter form input::placeholder{
+    color: white;
+    text-transform: capitalize;
+}
+
+.newsletter form input [type="submit"]{
+    background: white;
+    width: 20rem;
+    font-size: 1.7rem;
+    border-radius: 5rem;
+    cursor: pointer;
+
+}
+
+
+
+.container{
+	margin: auto;
+    width: 100%;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ul{
+	list-style: none;
+}
+
+.footer{
+	background-color: var(--primary-color);
+    
+    
+}
+
+.footer-col{
+   
+   padding: 0 10px;
+   background-color: var(--primary-color);
+ 
+   
+}
+.footer-col h4{
+	font-size: 18px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+
+/* .footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #DBD0C5;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+} */
+
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: black;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: #DBD0C5;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #DBD0C5;
+}
+
+
+
+/* Media queries */
+
+
+
+@media (max-width:1200px){
+    html{
+        font-size: 55%;
+        
+    }
+}
+
+
+@media (max-width:991px){
+    section {
+        padding: 0 3%;
+        padding-top: 7.5rem;
+         
+    }
+}
+
+
+
+@media (max-width:768px){
+    header label{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%; left: 0;
+        width: 100%;
+        background: black;
+        padding: 1rem 2rem;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+    }
+
+    header .navbar a{
+        display: block;
+        margin: 2rem 0;
+        font-size: 2rem;
+    }
+    
+
+    header input:checked ~ .navbar{
+        transform: scaleY(1);
+            opacity: 1;
+    }
+
+
+    header input:checked ~ label::before{
+      content: '\f00d';
+    }
+
+   
+    
+    .home .content h1{
+        font-size: 3.6rem;
+
+    }
+
+    
+    .about{
+        background-position: right;
+    }
+
+
+
+    .newsletter p{
+        width: auto;
+    }
+
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    
+
+}
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+        
+    }
+}
