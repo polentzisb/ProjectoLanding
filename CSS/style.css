@@ -34,7 +34,6 @@ section {
     min-height: 100vh;
     padding: 0 7%;
     padding-top: 7.5rem;
-     
 }
 
 header {
@@ -83,10 +82,7 @@ header label{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-  
-    
 }
-
 
 
 .home .content{ 
@@ -94,8 +90,6 @@ header label{
     color: white;
     font-weight: 700;
     text-shadow: 2px 2px 4px black;
-    
-   
 }
 
 .parrafo{
@@ -127,6 +121,12 @@ header label{
 }
 
 
+.about {
+    border-radius: 80px 80px;
+    border: 2px solid;
+    background-color: #9a9b87;
+}
+
 .about .column{
     display: flex;
     align-items: center;
@@ -140,14 +140,20 @@ header label{
     flex: 1 1 40rem;
     padding: 1rem 0;
     margin-left: 30px;
+}
 
+.content {
+    margin-top: -200px;
+}
+
+.heading {
+   text-align: center;
 }
 
 
 .image{
     border-radius: 10px 50px 13px 50px;
     overflow: hidden;
-
 }
 
     
@@ -157,7 +163,11 @@ header label{
     background: var(--bs-body-bg);
     background-size: cover;
     background-position: center;
+    margin-top: 10px;
+}
 
+.letternews{
+    margin-top: 1px;
 }
 
 
@@ -208,8 +218,6 @@ header label{
 
 }
 
-
-
 .container{
 	margin: auto;
     width: 100%;
@@ -227,17 +235,13 @@ ul{
 
 .footer{
 	background-color: var(--primary-color);
-    
-    
 }
 
 .footer-col{
-   
    padding: 0 10px;
    background-color: var(--primary-color);
- 
-   
 }
+
 .footer-col h4{
 	font-size: 18px;
 	color: black;
@@ -247,36 +251,26 @@ ul{
 	position: relative;
 }
 
-
-/* .footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	background-color: #DBD0C5;
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
-} */
-
-
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
 }
+
 .footer-col ul li a{
 	font-size: 16px;
 	text-transform: capitalize;
 	color: #ffffff;
 	text-decoration: none;
 	font-weight: 300;
-	color: #bbbbbb;
+	color: black;
 	display: block;
 	transition: all 0.3s ease;
 }
+
 .footer-col ul li a:hover{
 	color: black;
 	padding-left: 8px;
 }
+
 .footer-col .social-links a{
 	display: inline-block;
 	height: 40px;
@@ -342,23 +336,15 @@ ul{
         margin: 2rem 0;
         font-size: 2rem;
     }
-    
 
     header input:checked ~ .navbar{
         transform: scaleY(1);
             opacity: 1;
     }
 
-
-    header input:checked ~ label::before{
-      content: '\f00d';
-    }
-
-   
     
     .home .content h1{
         font-size: 3.6rem;
-
     }
 
     
@@ -367,22 +353,19 @@ ul{
     }
 
 
-
     .newsletter p{
         width: auto;
+        margin
     }
 
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
     }
-    
-
 }
 
 @media (max-width:450px){
     html{
         font-size: 50%;
-        
     }
 }
