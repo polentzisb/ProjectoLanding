@@ -292,8 +292,6 @@ ul{
 
 /* Media queries */
 
-
-
 @media (max-width:1200px){
     html{
         font-size: 55%;
@@ -309,8 +307,6 @@ ul{
          
     }
 }
-
-
 
 @media (max-width:768px){
     header label{
