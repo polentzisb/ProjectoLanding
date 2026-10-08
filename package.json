@@ -1,0 +1,14 @@
+{
+  "name": "cofferoast-landing",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Landing estática, accesible y responsiva de CoffeRoast",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node --check js/app.js && node scripts/check.mjs",
+    "build": "npm run check && node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs --dist"
+  }
+}

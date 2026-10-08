@@ -1,272 +1,317 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+<!doctype html>
+<html lang="es">
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CoffeRoast</title>
-    <!---CSS---->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#314638">
+    <meta name="description" content="CoffeRoast: café, accesorios y pequeños rituales para disfrutar cada taza. Descubre nuestra selección y encuentra tu forma de preparar café.">
+    <meta property="og:title" content="CoffeRoast — Un buen café. Un buen comienzo.">
+    <meta property="og:description" content="Descubre café, accesorios y el placer de preparar una buena taza.">
+    <meta property="og:type" content="website">
+    <title>CoffeRoast — Un buen café. Un buen comienzo.</title>
+    <link rel="icon" href="CSS/images/coffe.svg" type="image/svg+xml">
+    <link rel="preload" as="image" href="assets/images/hero-1600.webp" imagesrcset="assets/images/hero-800.webp 800w, assets/images/hero-1600.webp 1600w" imagesizes="(max-width: 720px) 100vw, 57vw">
     <link rel="stylesheet" href="CSS/style.css">
-    <!---Google Font---->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <!---font awesome---->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="./CSS/images/coffe.svg" type="image/x-icon">
-</head>
-
-<body>
-
-    <!----Header Section star-->
-    <header>
-        <a href="#" class="logo"><span>CoffeRoast</span></a>
-        <input type="checkbox" id="menu-bar">
-        <label for="menu-bar" class="fas fa-bars"></label>
-
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#shop">Shop</a>
-            <a href="#about">About</a>
-            <a href="#review">Newsletter</a>
-        </nav>
-    </header>
-    <!----Header Section ends-->
-
-    <!----Home Section star-->
-    <section class="home" id="home">
-        <div class="content">
-            <h1>Enjoy Real Coffe</h1>
-            <p>We’ve been crafting the finest quality coffee for <br> 50 years. From our carefully roasted signature
-                blend—chosen<br> after CoffeRoast blind-tested 112 variations. After the first sip,<br> you’ll see why
-                is the perfect cup, every time.</p>
-        </div>
-    </section>
-
-    <!----Home Section ends-->
-
-    <!----Product Section star-->
-    <section class="product" id="product">
-        <h1 class="heading"> Ours prodcuts</h1>
-        <div class="box-container">
-            <div class="box">
-                <i class="fas fa-quote-right"></i>
-                <div class="user">
-                    <img src="./CSS/images/prodccs.jpg" alt="coffemug" height="410">
-                    <h3>Coffe Mug</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <div class="comment">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book.
-                    </div>
-                </div>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-quote-right"></i>
-                <div class="user">
-                    <img src="./CSS/images/procdcd.jpg" alt="coffemug2" height="410">
-                    <h3>Coffe Mug</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <div class="comment">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book.
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="box">
-                <i class="fas fa-quote-right"></i>
-                <div class="user">
-                    <img src="./CSS/images/prod.jpg" alt="coffebeans" height="410">
-                    <h3>Coffe Beans</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <div class="comment">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book.
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="box">
-                <i class="fas fa-quote-right"></i>
-                <div class="user">
-                    <img src="./CSS/images/product4.jpg" alt="coffemug3" height="350">
-                    <h3>Coffe Chemex</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <div class="comment">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book.
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="box">
-                <i class="fas fa-quote-right"></i>
-                <div class="user">
-                    <img src="./CSS/images/product7.jpg" alt="coffemug3" height="410">
-                    <h3>Coffe V60</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <div class="comment">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book.
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="box">
-                <i class="fas fa-quote-right"></i>
-                <div class="user">
-                    <img src="./CSS/images/product8.jpg" alt="coffemug3" height="350">
-                    <h3>Coffe Beans</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <div class="comment">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book.
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </section>
-
-    <!----Product Section ends-->
-
-    <!----About  Section star-->
-    <section class="about" id="about">
-        <h1 class="heading">About Us</h1>
-        <div class="column">
-            <div class="image">
-                <img src="./CSS/images/aboutus1.jpg" alt="coffebar" height="570" width="500">
-            </div>
-            <div class="content">
-                <h1>This is our History</h1><br>
-                <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h2>
-            </div>
-        </div>
-    </section>
-
-    <!----About Section ends-->
-
-    <!----Newsletter Section star-->
-
-    <div class="newsletter" id="newsletter">
-        <div class="letternews">
-            <h3>Keep In Touch With Us</h3>
-            <p>Sign In For Our Weekly Newsletter</p>
-            <form action="">
-                <input type="email" placeholder="enter your email">
-                <input type="submit" value="Subscribe">
-            </form>
-        </div>
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+    <div class="announcement">
+      Baja el ritmo. Disfruta tu café.
+      <span aria-hidden="true">↗</span>
     </div>
-
-
-    <!----Newsletter Section ends-->
-
-    <!----Footer Section star-->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>company</h4>
-                    <ul>
-                        <li><a href="#">about us</a></li>
-                        <li><a href="#">our services</a></li>
-                        <li><a href="#">privacy policy</a></li>
-                        <li><a href="#">affiliate program</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>get help</h4>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">shipping</a></li>
-                        <li><a href="#">returns</a></li>
-                        <li><a href="#">order status</a></li>
-                        <li><a href="#">payment options</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Contact Info</h4>
-                    <ul>
-                        <li><a href="#">+123-456-789</a></li>
-                        <li><a href="#">+222-444-777</a></li>
-                        <li><a href="#">cofferoast@gmail.com</a></li>
-                        <li><a href="#">Santiago, Chile - 10210101</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>follow us</h4>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </div>
+    <header class="site-header">
+      <div class="header-inner wrap">
+        <a class="logo" href="#home" aria-label="CoffeRoast, inicio"><svg class="bean" viewbox="0 0 32 38" aria-hidden="true"><ellipse cx="16" cy="19" rx="12" ry="17" transform="rotate(28 16 19)"></ellipse><path d="M22 3C9 13 24 23 10 35"></path></svg>CoffeRoast<span class="logo-dot">.</span></a>
+        <nav id="navigation" class="navigation" aria-label="Navegación principal">
+          <a href="#shop">Nuestra selección</a>
+          <a href="#about">Nuestra esencia</a>
+          <a href="#ritual">El ritual</a>
+        </nav>
+        <div class="header-actions">
+          <button class="bag-button" id="cart-open" type="button" aria-haspopup="dialog" aria-label="Abrir lista de compra, 0 productos" hidden><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 7h14l1 14H4L5 7Z"></path><path d="M8 9V6a4 4 0 0 1 8 0v3"></path></svg><span id="cart-count">0</span></button>
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" aria-label="Abrir menú" hidden><span></span><span></span></button>
         </div>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="small-line"></span> Para los que disfrutan lo simple</p>
+          <h1 id="hero-title">Un buen café.<br>Un buen <em>comienzo.</em></h1>
+          <p class="hero-description">Hay momentos que merecen una pausa. Encuentra tu café favorito y convierte lo cotidiano en un pequeño ritual.</p>
+          <a class="button button-dark" href="#shop">Encuentra tu favorito <span aria-hidden="true">↗</span></a>
+          <div class="hero-footnote">
+            <span class="tiny-bean" aria-hidden="true">◒</span>
+            Café, calma y algo más.
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img class="hero-image" src="assets/images/hero-1600.webp" srcset="assets/images/hero-800.webp 800w, assets/images/hero-1600.webp 1600w" sizes="(max-width: 720px) 100vw, 57vw" width="1600" height="1067" alt="Preparación de café filtrado en una barra de café" fetchpriority="high">
+          <div class="hero-stamp" aria-hidden="true">
+            <span>HECHO PARA</span>
+            <svg class="bean" viewbox="0 0 32 38" aria-hidden="true"><ellipse cx="16" cy="19" rx="12" ry="17" transform="rotate(28 16 19)"></ellipse><path d="M22 3C9 13 24 23 10 35"></path></svg>
+            <span>DISFRUTAR</span>
+          </div>
+          <div class="image-caption">
+            <span>El placer está en el proceso.</span>
+            <span aria-hidden="true">COFFE / ROAST</span>
+          </div>
+        </div>
+      </section>
+      <div class="values-strip" aria-label="Nuestra filosofía">
+        <span>Café con carácter</span>
+        <span aria-hidden="true">✳</span>
+        <span>Pequeños rituales</span>
+        <span aria-hidden="true">✳</span>
+        <span>Grandes momentos</span>
+        <span aria-hidden="true">✳</span>
+        <span>Siempre una buena taza</span>
+      </div>
+      <section class="shop section-space wrap" id="shop" aria-labelledby="shop-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">01 — Nuestra selección</p>
+            <h2 id="shop-title">Tu próxima <em>taza favorita.</em></h2>
+          </div>
+          <p>Café y herramientas para disfrutarlo.<br>Elige cómo empieza tu día.</p>
+        </div>
+        <div class="shop-toolbar">
+          <div class="filters" role="group" aria-label="Filtrar productos" hidden>
+            <button type="button" data-filter="all" aria-pressed="true">Todo <span>06</span></button>
+            <button type="button" data-filter="coffee" aria-pressed="false">Café</button>
+            <button type="button" data-filter="accessories" aria-pressed="false">Accesorios</button>
+          </div>
+          <p class="catalog-note">Catálogo de muestra · Precios referenciales en CLP</p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card" data-category="coffee" data-product="house" data-price="12900" data-image="beans-house">
+            <div class="product-image">
+              <img src="assets/images/beans-house-800.webp" srcset="assets/images/beans-house-400.webp 400w, assets/images/beans-house-800.webp 800w" sizes="(max-width: 540px) 90vw, (max-width: 900px) 45vw, 30vw" width="800" height="1200" alt="Granos de café tostado junto a una taza blanca" loading="lazy" decoding="async">
+              <span class="product-tag">El clásico</span>
+              <button class="add-button" type="button" data-add="house" aria-label="Añadir Café de la casa a la lista" hidden>+</button>
+            </div>
+            <div class="product-meta">
+              <div>
+                <p>Café en grano · 250 g</p>
+                <h3>Café de la casa</h3>
+              </div>
+              <span class="price">$12.900</span>
+            </div>
+            <p class="product-description">Un compañero para tu ritual de cada mañana.</p>
+          </article>
+          <article class="product-card" data-category="coffee" data-product="dark" data-price="13900" data-image="beans-dark">
+            <div class="product-image">
+              <img src="assets/images/beans-dark-800.webp" srcset="assets/images/beans-dark-400.webp 400w, assets/images/beans-dark-800.webp 800w" sizes="(max-width: 540px) 90vw, (max-width: 900px) 45vw, 30vw" width="800" height="1067" alt="Taza blanca llena de granos de café" loading="lazy" decoding="async">
+              <span class="product-tag">Para ir más allá</span>
+              <button class="add-button" type="button" data-add="dark" aria-label="Añadir Tueste intenso a la lista" hidden>+</button>
+            </div>
+            <div class="product-meta">
+              <div>
+                <p>Café en grano · 250 g</p>
+                <h3>Tueste intenso</h3>
+              </div>
+              <span class="price">$13.900</span>
+            </div>
+            <p class="product-description">Para quienes buscan una taza con carácter.</p>
+          </article>
+          <article class="product-card" data-category="accessories" data-product="cup" data-price="9900" data-image="cup">
+            <div class="product-image">
+              <img src="assets/images/cup-800.webp" srcset="assets/images/cup-400.webp 400w, assets/images/cup-800.webp 800w" sizes="(max-width: 540px) 90vw, (max-width: 900px) 45vw, 30vw" width="800" height="1199" alt="Taza de cerámica con café caliente, sostenida por el asa" loading="lazy" decoding="async">
+              <button class="add-button" type="button" data-add="cup" aria-label="Añadir Taza de todos los días a la lista" hidden>+</button>
+            </div>
+            <div class="product-meta">
+              <div>
+                <p>Accesorios · Cerámica</p>
+                <h3>Taza de todos los días</h3>
+              </div>
+              <span class="price">$9.900</span>
+            </div>
+            <p class="product-description">El lugar donde empieza tu pausa favorita.</p>
+          </article>
+          <article class="product-card" data-category="accessories" data-product="espresso" data-price="11900" data-image="espresso-cup">
+            <div class="product-image">
+              <img src="assets/images/espresso-cup-800.webp" srcset="assets/images/espresso-cup-400.webp 400w, assets/images/espresso-cup-800.webp 800w" sizes="(max-width: 540px) 90vw, (max-width: 900px) 45vw, 30vw" width="800" height="1200" alt="Taza blanca de café con espuma sobre un plato celeste" loading="lazy" decoding="async">
+              <button class="add-button" type="button" data-add="espresso" aria-label="Añadir Taza y plato a la lista" hidden>+</button>
+            </div>
+            <div class="product-meta">
+              <div>
+                <p>Accesorios · Cerámica</p>
+                <h3>Taza y plato</h3>
+              </div>
+              <span class="price">$11.900</span>
+            </div>
+            <p class="product-description">Una buena excusa para quedarse un rato más.</p>
+          </article>
+          <article class="product-card" data-category="accessories" data-product="chemex" data-price="39900" data-image="chemex">
+            <div class="product-image">
+              <img src="assets/images/chemex-800.webp" srcset="assets/images/chemex-400.webp 400w, assets/images/chemex-800.webp 800w" sizes="(max-width: 540px) 90vw, (max-width: 900px) 45vw, 30vw" width="800" height="1000" alt="Cafetera de vidrio Chemex con filtro de papel" loading="lazy" decoding="async">
+              <span class="product-tag">El ritual lento</span>
+              <button class="add-button" type="button" data-add="chemex" aria-label="Añadir Cafetera Chemex a la lista" hidden>+</button>
+            </div>
+            <div class="product-meta">
+              <div>
+                <p>Métodos · Filtrado</p>
+                <h3>Cafetera Chemex</h3>
+              </div>
+              <span class="price">$39.900</span>
+            </div>
+            <p class="product-description">Diseño simple para disfrutar cada preparación.</p>
+          </article>
+          <article class="product-card" data-category="accessories" data-product="v60" data-price="24900" data-image="v60">
+            <div class="product-image">
+              <img src="assets/images/v60-800.webp" srcset="assets/images/v60-400.webp 400w, assets/images/v60-800.webp 800w" sizes="(max-width: 540px) 90vw, (max-width: 900px) 45vw, 30vw" width="800" height="1198" alt="Filtro cónico V60 sobre una jarra de vidrio con café" loading="lazy" decoding="async">
+              <button class="add-button" type="button" data-add="v60" aria-label="Añadir Filtro V60 a la lista" hidden>+</button>
+            </div>
+            <div class="product-meta">
+              <div>
+                <p>Métodos · Filtrado</p>
+                <h3>Filtro V60</h3>
+              </div>
+              <span class="price">$24.900</span>
+            </div>
+            <p class="product-description">Explora los matices de tu café, gota a gota.</p>
+          </article>
+        </div>
+        <p class="sr-only" id="filter-status" role="status"></p>
+        <noscript>
+          <p class="catalog-note">Activa JavaScript para filtrar productos y usar la lista de compra.</p>
+        </noscript>
+      </section>
+      <section class="story" id="about" aria-labelledby="story-title">
+        <div class="story-image">
+          <img src="assets/images/story-1000.webp" srcset="assets/images/story-600.webp 600w, assets/images/story-1000.webp 1000w" sizes="(max-width: 720px) 100vw, 50vw" width="1000" height="1500" alt="Interior acogedor de una cafetería, con barra de madera y estantes de café" loading="lazy" decoding="async">
+          <span class="story-image-note">Un lugar para bajar el ritmo.</span>
+        </div>
+        <div class="story-copy">
+          <p class="eyebrow">02 — Nuestra esencia</p>
+          <h2 id="story-title">Más que café.<br>Una forma de <em>disfrutar.</em></h2>
+          <p>Creemos en las cosas sencillas: el aroma del café recién preparado, una conversación sin prisa y esa primera taza que hace que todo empiece mejor.</p>
+          <p>CoffeRoast nace de esa idea. Un espacio para descubrir café y encontrar los objetos que hacen de cada preparación un momento propio.</p>
+          <a class="text-link" href="#ritual">Descubre tu ritual <span aria-hidden="true">↗</span></a>
+          <div class="story-signature">
+            Con café, con calma.
+            <span>El espíritu CoffeRoast</span>
+          </div>
+        </div>
+      </section>
+      <section class="ritual section-space" id="ritual" aria-labelledby="ritual-title">
+        <div class="wrap">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">03 — El ritual</p>
+              <h2 id="ritual-title">Tu pausa empieza <em>aquí.</em></h2>
+            </div>
+            <p>No hace falta complicarlo.<br>Solo dedicarle un momento.</p>
+          </div>
+          <div class="ritual-grid">
+            <article>
+              <span class="step-number">01</span>
+              <h3>Encuentra tu café</h3>
+              <p>Suave o intenso. En grano o recién molido. Empieza por lo que más disfrutas.</p>
+            </article>
+            <article>
+              <span class="step-number">02</span>
+              <h3>Hazlo a tu manera</h3>
+              <p>Elige tu método, prepara tu taza y dale al proceso el tiempo que merece.</p>
+            </article>
+            <article>
+              <span class="step-number">03</span>
+              <h3>Quédate en el momento</h3>
+              <p>Deja el teléfono, respira el aroma y disfruta. Este pequeño rato es para ti.</p>
+            </article>
+          </div>
+          <a class="button button-light" href="#shop">Explora la selección <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+      <section class="faq section-space wrap" aria-labelledby="faq-title">
+        <div>
+          <p class="eyebrow">Antes de tu próxima taza</p>
+          <h2 id="faq-title">Unas buenas <em>preguntas.</em></h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>¿Puedo comprar en esta página?<span aria-hidden="true">+</span></summary>
+            <p>Este es un catálogo de demostración. Puedes explorar los productos y armar una lista con precios referenciales. Todavía no procesamos pagos ni pedidos.</p>
+          </details>
+          <details>
+            <summary>¿Cómo guardo mi café?<span aria-hidden="true">+</span></summary>
+            <p>Guárdalo en un recipiente hermético, en un lugar fresco y seco, lejos de la luz y de olores fuertes. Muele solo lo que vas a preparar para disfrutar su aroma.</p>
+          </details>
+          <details>
+            <summary>¿Qué método elijo para empezar?<span aria-hidden="true">+</span></summary>
+            <p>El V60 permite experimentar con la preparación taza a taza. La Chemex es una alternativa para compartir. El mejor método es el que te resulta cómodo y disfrutas usar.</p>
+          </details>
+        </div>
+      </section>
+      <section class="newsletter" id="newsletter" aria-labelledby="newsletter-title">
+        <div class="wrap newsletter-inner">
+          <div>
+            <p class="eyebrow">Cartas con aroma a café · Próximamente</p>
+            <h2 id="newsletter-title">Nos vemos en tu <em>próxima pausa.</em></h2>
+            <p>Novedades, ideas y un poco de inspiración para tu ritual.</p>
+          </div>
+          <div class="newsletter-form-wrap">
+            <form id="newsletter-form">
+              <label for="email">Tu correo electrónico</label>
+              <div class="email-field">
+                <input type="email" name="email" id="email" placeholder="tu@correo.com" autocomplete="email" maxlength="254" required disabled aria-describedby="newsletter-note newsletter-status">
+                <button type="submit" aria-label="Probar formulario de newsletter" hidden><span aria-hidden="true">↗</span></button>
+              </div>
+              <p class="form-note" id="newsletter-note">Formulario de muestra. Aún no recibimos suscripciones.</p>
+              <p class="form-status" id="newsletter-status" role="status"></p>
+            </form>
+            <noscript>
+              <p>El formulario de muestra requiere JavaScript.</p>
+            </noscript>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="wrap footer-main">
+        <div>
+          <a class="logo" href="#home">CoffeRoast<span class="logo-dot">.</span></a>
+          <p>Un buen café cambia tu día.<br>Disfruta el momento.</p>
+        </div>
+        <nav aria-label="Explora">
+          <p class="footer-label">Explora</p>
+          <a href="#shop">Nuestra selección</a>
+          <a href="#about">Nuestra esencia</a>
+          <a href="#ritual">El ritual</a>
+        </nav>
+        <nav aria-label="Más información">
+          <p class="footer-label">Sigamos en contacto</p>
+          <a href="#newsletter">Newsletter</a>
+          <a href="#faq-title">Preguntas frecuentes</a>
+          <a href="mailto:cofferoast@gmail.com">cofferoast@gmail.com <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+      <div class="wrap footer-bottom">
+        <p>© <span id="year">2026</span> CoffeRoast. Hecho para disfrutar.</p>
+        <p>Santiago, Chile <span aria-hidden="true">↗</span></p>
+      </div>
     </footer>
-    <!----Footer Section ends-->
-
-</body>
-
+    <dialog id="cart-dialog" aria-labelledby="cart-title">
+      <div class="cart-heading">
+        <div>
+          <p class="eyebrow">Tu selección</p>
+          <h2 id="cart-title">Un buen <em>ritual.</em></h2>
+        </div>
+        <button class="icon-button" id="cart-close" type="button" aria-label="Cerrar lista de compra" autofocus>×</button>
+      </div>
+      <p class="cart-disclaimer">Lista de muestra. No se realizan compras ni se procesan pagos.</p>
+      <div id="cart-items"></div>
+      <p class="sr-only" id="cart-status" role="status"></p>
+      <div class="cart-total">
+        <span>Total referencial</span>
+        <strong id="cart-total">
+          $0
+        </strong>
+      </div>
+      <button class="button button-dark" id="cart-continue" type="button">Seguir explorando <span aria-hidden="true">↗</span></button>
+      <p class="form-note" id="storage-note">Tu selección se guarda en este navegador.</p>
+    </dialog>
+    <p class="toast" id="toast" role="status"></p>
+  </body>
 </html>
