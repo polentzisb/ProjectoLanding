@@ -80,8 +80,3 @@ Las fotografías originales se conservan como fuentes, pero quedan fuera de `dis
 
 Se probaron en el navegador los filtros (2 cafés, 4 accesorios), sumas y restas de cantidades, eliminación, lista vacía, persistencia tras recargar, menú móvil, cierre con Escape y correos inválidos/válidos. Se revisó el diseño entre 320 y 1440 px y se corrigió el desbordamiento detectado en 320 px. `npm run build` ejecuta las comprobaciones estructurales antes de generar la salida.
 
-## Antes de vender o recibir suscripciones
-
-Los productos, precios y textos comerciales son de muestra. Para operar como tienda faltan catálogo/precios aprobados, backend de pedidos, inventario, pagos y políticas comerciales reales. Para el newsletter falta un proveedor de suscripción con consentimiento y gestión de bajas. Al integrarlo, adapta `connect-src` y `form-action` en la política CSP al destino autorizado. Configura también la URL definitiva y una imagen social absoluta antes de añadir `og:url`, `og:image` y una URL canónica.
-
-El sitio original enlazado por el README anterior es [landingpagecoffe.netlify.app](https://landingpagecoffe.netlify.app/). Ese enlace puede seguir mostrando la versión anterior hasta que se publique esta revisión.
